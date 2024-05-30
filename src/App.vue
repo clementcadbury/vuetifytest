@@ -1,13 +1,14 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld />
-    </v-main>
+      <v-container style="max-width: 540px;">
+        <BuySell />
+      </v-container>
 
-    <AppFooter />
+    </v-main>
   </v-app>
 </template>
 
 <script setup>
-  //
+//
 </script>
